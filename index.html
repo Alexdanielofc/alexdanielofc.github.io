@@ -15,8 +15,7 @@
 
     <main>
         <section class="min-h-screen mt-20" id="apresentacao">
-            <div
-                class=" flex flex-col items-center justify-center max-w-3xl mx-auto text-center gap-4 px-6">
+            <div class=" flex flex-col items-center justify-center max-w-3xl mx-auto text-center gap-4 px-6">
                 <p class="text-2xl font-semibold text-gray-800">Olá, eu sou</p>
                 <h1 class="text-5xl font-bold text-blue-600">Alex Nunes</h1>
                 <p class="text-2xl text-blue-500">Desenvolvedor Web Júnior | PHP e Laravel</p>
@@ -97,54 +96,72 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div class="border rounded-lg p-6">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Habit Tracker</h3>
-                        <p class="text-gray-600">Aplicação web para acompanhar hábitos, desenvolvida com Laravel e MySQL.</p>
-                        
+                        <p class="text-gray-600">Aplicação web para acompanhar hábitos, desenvolvida com Laravel e
+                            MySQL.</p>
+
                         <!-- Lista de habilidades do habit tracker -->
-                        <ul class="mt-4 mb-8 flex  gap-2">
+                        <ul class="mt-4 mb-8 flex flex-wrap gap-2">
                             <li class="px-3 py-1 rounded-full border">Laravel</li>
                             <li class="px-3 py-1 rounded-full border">MySQL</li>
                             <li class="px-3 py-1 rounded-full border">CRUD</li>
                         </ul>
 
                         <!-- Botao habit tracker -->
-                        <a 
-                        href="https://github.com/Alexdanielofc/habit-tracker-php" 
-                        target="_blank" 
-                        class="mt-6 bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 transition hover:scale-105">
-                        Ver no GitHub
-                    </a>
+                        <a href="https://github.com/Alexdanielofc/habit-tracker-php" target="_blank"
+                            rel="noopener noreferrer"
+                            class="justify-center flex transition bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 hover:scale-105">
+                            Ver no GitHub
+                        </a>
                     </div>
 
                     <!-- Card Agente de IA -->
                     <div class="border rounded-lg p-6">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Agente de IA</h3>
-                        <p class="text-gray-600">Agente de IA em Python com engenharia de prompt. Projeto em desenvolvimento.</p>
+                        <p class="text-gray-600">Agente de IA em Python com engenharia de prompt. Projeto em
+                            desenvolvimento.</p>
 
                         <!-- Lista de habilidades do agente de IA -->
-                        <ul class="mt-4 mb-8 flex  gap-2">
+                        <ul class="mt-4 mb-8 flex flex-wrap gap-2">
                             <li class="px-3 py-1 rounded-full border">Python</li>
                             <li class="px-3 py-1 rounded-full border">Engenharia de Prompt</li>
                         </ul>
 
                         <!-- Botao agente de IA -->
-                        <a 
-                        href="#" 
-                        target="_blank" 
-                        class="mt-6 bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 transition hover:scale-105 ">
-                        Em desenvolvimento
-                        </a>
+                        <p class="justify-center flex mt-6 bg-gray-500 italic text-white px-4 py-3 rounded-md">
+                            Em desenvolvimento
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-20" id="contato">
-            <h2>Contato</h2>
-        </section>
     </main>
 
-    <footer>
-
+    <footer class="bg-gray-800 text-white py-16">
+        <section class="py-20" id="contato">
+            <div>
+                <h2 class="text-4xl font-bold text-gray-400 mb-4 text-center">Contato</h2>
+                <p class="text-lg text-gray-300 text-center">Vamos conversar? Pode me enviar um e-mail ou me encontrar
+                    nas redes sociais.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mt-6">
+                    <a href="mailto:alexdanielnf@gmail.com" class="text-gray-300 hover:text-blue-500">
+                        E-mail
+                    </a>
+                    <a href="https://www.linkedin.com/in/nunesalex/" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-300 hover:text-blue-500">
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Alexdanielofc" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-300 hover:text-blue-500">
+                        GitHub
+                    </a>
+                    <a href="https://wa.me/5534998385905" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-300 hover:text-blue-500">
+                        Whatsapp
+                    </a>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 
