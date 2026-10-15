@@ -9,13 +9,24 @@
 </head>
 
 <body class="text-lg">
-    <header>
-
+    <header class="sticky top-0 z-10">
+        <nav class="bg-gray-800 shadow-md">
+            <div class="mx-auto px-6 py-4 flex justify-between items-center">
+                <a href="#apresentacao" class="sm:text-2xl font-bold text-gray-300 hover:text-blue-300 transition">AN</a>
+                <div class="flex gap-2 sm:gap-4">
+                    <a href="#sobre" class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Sobre</a>
+                    <a href="#habilidades" class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Habilidades</a>
+                    <a href="#projetos" class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Projetos</a>
+                    <a href="#contato" class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Contato</a>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="min-h-screen mt-20" id="apresentacao">
-            <div class=" flex flex-col items-center justify-center max-w-3xl mx-auto text-center gap-4 px-6">
+        <section class="" id="apresentacao">
+            <div
+                class="min-h-screen flex flex-col items-center justify-center max-w-3xl mx-auto text-center gap-4 px-6">
                 <p class="text-2xl font-semibold text-gray-800">Olá, eu sou</p>
                 <h1 class="text-5xl font-bold text-blue-600">Alex Nunes</h1>
                 <p class="text-2xl text-blue-500">Desenvolvedor Web Júnior | PHP e Laravel</p>
@@ -144,7 +155,7 @@
                 nas redes sociais.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4 mt-6">
                 <a href="mailto:alexdanielnf@gmail.com"
-                    class="border-white border py-2 px-2 rounded-md text-gray-300 hover:text-blue-300 text-center">
+                    class="border-white border py-2 px-4 rounded-md text-gray-300 hover:text-blue-300 text-center">
                     E-mail
                 </a>
                 <a href="https://www.linkedin.com/in/nunesalex/" target="_blank" rel="noopener noreferrer"
