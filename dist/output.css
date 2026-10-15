@@ -310,6 +310,9 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .place-items-end {
+    place-items: end;
+  }
   .items-center {
     align-items: center;
   }
