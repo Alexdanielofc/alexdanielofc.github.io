@@ -8,11 +8,20 @@
         content="Portfólio de Alex Nunes, desenvolvedor web júnior com foco em PHP e Laravel. Conheça minhas habilidades e projetos.">
     <title>Alex Nunes | Junior Web Developer</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="icon" type="image/png" href="/icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+    </style>
 </head>
 
 <body class="text-lg">
     <header class="sticky top-0 z-10">
-        <nav class="bg-gray-800 shadow-md">
+        <nav class="bg-gray-800 ">
             <div class="mx-auto px-6 py-4 flex justify-between items-center">
                 <a href="#apresentacao"
                     class="sm:text-2xl font-bold text-gray-300 hover:text-blue-300 transition">AN</a>
@@ -122,87 +131,95 @@
                 <h2 class="text-3xl font-bold text-blue-600 mb-4 text-center">Projetos</h2>
 
                 <!-- Card Habit Tracker -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 flex-col h-full gap-6">
                     <div class="border rounded-lg p-6">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Habit Tracker</h3>
                         <p class="text-gray-600">Aplicação web desenvolvida com Laravel e MySQL para acompanhamento de
                             hábitos. Projeto criado para consolidar conhecimentos em desenvolvimento backend,
                             gerenciamento de dados e construção de aplicações web.</p>
+                            
+                        <div class="mt-auto">
+                            <!-- Lista de habilidades do habit tracker -->
+                            <ul class="mt-4 mb-8 flex flex-wrap gap-2">
+                                <li class="px-3 py-1 rounded-full border">PHP</li>
+                                <li class="px-3 py-1 rounded-full border">Laravel</li>
+                                <li class="px-3 py-1 rounded-full border">MySQL</li>
+                                <li class="px-3 py-1 rounded-full border">Blade</li>
+                                <li class="px-3 py-1 rounded-full border">Tailwind CSS</li>
+                                
+                            </ul>
 
-                        <!-- Lista de habilidades do habit tracker -->
-                        <ul class="mt-4 mb-8 flex flex-wrap gap-2">
-                            <li class="px-3 py-1 rounded-full border">PHP</li>
-                            <li class="px-3 py-1 rounded-full border">Laravel</li>
-                            <li class="px-3 py-1 rounded-full border">MySQL</li>
-                            <li class="px-3 py-1 rounded-full border">Blade</li>
-                            <li class="px-3 py-1 rounded-full border">Tailwind CSS</li>
-
-                        </ul>
-
-                        <!-- Botao habit tracker -->
-                        <a href="https://github.com/Alexdanielofc/habit-tracker-php" target="_blank"
-                            rel="noopener noreferrer"
-                            class="justify-center flex transition bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 hover:scale-105">
-                            Ver no GitHub
-                        </a>
+                            <!-- Botao habit tracker -->
+                            <a href="https://github.com/Alexdanielofc/habit-tracker-php" target="_blank"
+                                rel="noopener noreferrer"
+                                class="justify-center flex transition bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 hover:scale-105">
+                                Ver no GitHub
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Card Portifolio -->
-                    <div class="border rounded-lg p-6">
+                    <div class="border rounded-lg p-6 flex flex-col h-full">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Portfólio Pessoal</h3>
                         <p class="text-gray-600">Este site: portfólio estático e responsivo, feito com HTML e Tailwind
                             CSS e publicado no GitHub Pages.</p>
 
-                        <!-- Lista de habilidades Portifolio -->
-                        <ul class="mt-4 mb-8 flex flex-wrap gap-2">
-                            <li class="px-3 py-1 rounded-full border">HTML</li>
-                            <li class="px-3 py-1 rounded-full border">Tailwind CSS</li>
-                            <li class="px-3 py-1 rounded-full border">GitHub Pages</li>
-                        </ul>
+                        <div class="mt-auto">
+                            <!-- Lista de habilidades Portifolio -->
+                            <ul class="mt-4 mb-8 flex flex-wrap gap-2">
+                                <li class="px-3 py-1 rounded-full border">HTML</li>
+                                <li class="px-3 py-1 rounded-full border">Tailwind CSS</li>
+                                <li class="px-3 py-1 rounded-full border">GitHub Pages</li>
+                            </ul>
 
-                        <!-- Botao Portifolio -->
-                        <a href="https://github.com/Alexdanielofc/alexdanielofc.github.io" target="_blank"
-                            rel="noopener noreferrer"
-                            class="justify-center flex transition bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 hover:scale-105">
-                            Ver no GitHub
-                        </a>
+                            <!-- Botao Portifolio -->
+                            <a href="https://github.com/Alexdanielofc/alexdanielofc.github.io" target="_blank"
+                                rel="noopener noreferrer"
+                                class="justify-center flex transition bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 hover:scale-105">
+                                Ver no GitHub
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Card Agente de IA -->
-                    <div class="border rounded-lg p-6">
+                    <div class="border rounded-lg flex flex-col h-full p-6">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Agente de IA</h3>
                         <p class="text-gray-600">Agente de IA em Python com engenharia de prompt. Projeto em
                             desenvolvimento.</p><br>
 
-                        <!-- Lista de habilidades do agente de IA -->
-                        <ul class="mt-4 mb-8 flex flex-wrap gap-2">
-                            <li class="px-3 py-1 rounded-full border">Python</li>
-                            <li class="px-3 py-1 rounded-full border">Engenharia de Prompt</li>
-                        </ul>
+                        <div class="mt-auto">
+                            <!-- Lista de habilidades do agente de IA -->
+                            <ul class="mt-4 mb-8 flex flex-wrap gap-2">
+                                <li class="px-3 py-1 rounded-full border">Python</li>
+                                <li class="px-3 py-1 rounded-full border">Engenharia de Prompt</li>
+                            </ul>
 
-                        <!-- Botao agente de IA -->
-                        <p class="justify-center flex mt-6 bg-gray-500 italic text-white px-4 py-3 rounded-md">
-                            Em desenvolvimento
-                        </p>
+                            <!-- Botao agente de IA -->
+                            <p class="justify-center flex mt-6 bg-gray-500 italic text-white px-4 py-3 rounded-md">
+                                Em desenvolvimento
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Card Link na bio -->
-                    <div class="border rounded-lg p-6">
+                    <div class="border rounded-lg flex flex-col h-full p-6">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Link na Bio</h3>
                         <p class="text-gray-600">Página de links no estilo "link na bio", feita em PHP puro, com cartões
                             de links ativos, tela de administração e formulário para adicionar links.</p>
 
-                        <!-- Lista de habilidades Link na Bio -->
-                        <ul class="mt-4 mb-8 flex flex-wrap gap-2">
-                            <li class="px-3 py-1 rounded-full border">PHP</li>
-                            <li class="px-3 py-1 rounded-full border">HTML</li>
-                            <li class="px-3 py-1 rounded-full border">CSS</li>
-                        </ul>
-
-                        <!-- Botao Link na Bio -->
-                        <p class="justify-center flex mt-6 bg-gray-500 italic text-white px-4 py-3 rounded-md">
-                            Em desenvolvimento
-                        </p>
+                        <div class="mt-auto">
+                            <!-- Lista de habilidades Link na Bio -->
+                            <ul class="mt-4 mb-8 flex flex-wrap gap-2">
+                                <li class="px-3 py-1 rounded-full border">PHP</li>
+                                <li class="px-3 py-1 rounded-full border">HTML</li>
+                                <li class="px-3 py-1 rounded-full border">CSS</li>
+                            </ul>
+                            
+                            <!-- Botao Link na Bio -->
+                            <p class="justify-center flex mt-6 bg-gray-500 italic text-white px-4 py-3 rounded-md">
+                                Em desenvolvimento
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
