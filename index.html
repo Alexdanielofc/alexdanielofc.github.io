@@ -16,6 +16,10 @@
     <style>
         body {
             font-family: 'IBM Plex Sans', sans-serif;
+
+            background-color: #ffffff;
+            background-image: radial-gradient(circle,#7ce0ff 1px, transparent 1px);
+            background-size: 20px 20px;
         }
     </style>
 </head>
@@ -23,10 +27,10 @@
 <body class="text-lg">
     <header class="sticky top-0 z-10">
         <nav class="bg-gray-800 ">
-            <div class=" mx-auto px-6 py-4 flex justify-between ">
+            <div class=" mx-auto px-6 py-4 flex justify-between items-center ">
                 <a href="#apresentacao"
                     class="sm:text-2xl font-bold text-gray-300 hover:text-blue-300 transition">AN</a>
-                <div class="flex gap-2 sm:gap-4">
+                <div class="flex gap-2 sm:gap-4 items-center">
                     <a href="#sobre" class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Sobre</a>
                     <a href="#habilidades"
                         class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Habilidades</a>
@@ -35,7 +39,7 @@
                     <a href="#contato"
                         class="text-sm sm:text-xl text-gray-300 hover:text-blue-300 transition">Contato</a>
                     <a href="/en/index.html"
-                        class="border-white border rounded-md p-2 text-sm sm:text-xl text-gray-300 hover:text-blue-300 hover:border-blue-300 transition">EN</a>
+                        class="border-white border rounded-md p-2 text-sm sm:text-sm text-gray-300 hover:text-blue-300 hover:border-blue-300 transition">EN</a>
                 </div>
             </div>
         </nav>
@@ -47,8 +51,8 @@
                 class="min-h-screen flex flex-col items-center justify-center max-w-4xl mx-auto text-center gap-4 px-6">
                 <p class="text-2xl font-semibold text-gray-800">Olá, eu sou</p>
                 <h1 class="text-5xl font-bold text-blue-600">Alex Nunes</h1>
-                <p class="text-2xl text-blue-500">Desenvolvedor Web Júnior | PHP e Laravel</p>
-                <p class="text-gray-600">Desenvolvedor web com foco em PHP e Laravel, experiência profissional com
+                <p class="text-2xl text-blue-500 font-bold">Desenvolvedor Web Júnior | PHP e Laravel</p>
+                <p class="text-gray-600 font-bold">Desenvolvedor web com foco em PHP e Laravel, experiência profissional com
                     sistemas ERP, bancos de dados e suporte técnico. Desenvolvo projetos próprios e estou expandindo
                     meus conhecimentos em Python e inteligência artificial.</p>
                 <div class="flex gap-4">
@@ -56,7 +60,7 @@
                         class="bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 transition hover:scale-105">Ver
                         projetos</a>
                     <a href="#contato"
-                        class="border-blue-800 text-blue-800 px-4 py-3 rounded-md border transition hover:opacity-90 hover:scale-105">Entrar
+                        class="bg-white border-blue-800 text-blue-800 font-bold px-4 py-3 rounded-md border transition hover:opacity-90 hover:scale-105">Entrar
                         em contato</a>
                     <a href="./Docs/Curriculo_Alex_Nunes.pdf" target="_blank" rel="noopener noreferrer"
                         class="bg-blue-800 text-white px-4 py-3 rounded-md hover:opacity-90 transition hover:scale-105">Baixar Currículo 
@@ -67,34 +71,37 @@
 
         <section class="py-20" id="sobre">
             <div class="max-w-4xl mx-auto px-6 text-center">
-                <h2 class="text-3xl font-bold text-blue-600 mb-4">Sobre mim</h2>
-                <p class="leading-relaxed text-gray-600">
-                    Sou desenvolvedor web júnior, com foco em PHP e Laravel,
-                    e experiência profissional em tecnologia da informação,
-                    implantação de sistemas ERP, bancos de dados e suporte
-                    técnico. Gosto de resolver problemas e desenvolver
-                    soluções práticas para necessidades reais.
-                </p>
+                <h2 class="text-3xl font-bold text-blue-600 mb-4">SOBRE</h2>
+                <div class="max-w-4xl mx-auto px-6 text-center bg-white border rounded-lg p-6">
+                    
+                    <p class="leading-relaxed text-gray-600">
+                        Sou desenvolvedor web júnior, com foco em PHP e Laravel,
+                        e experiência profissional em tecnologia da informação,
+                        implantação de sistemas ERP, bancos de dados e suporte
+                        técnico. Gosto de resolver problemas e desenvolver
+                        soluções práticas para necessidades reais.
+                    </p>
 
-                <p class="leading-relaxed text-gray-600 mt-4">
-                    Concluí o Habit Tracker, uma aplicação web desenvolvida
-                    com Laravel e MySQL, e continuo aprimorando minhas
-                    habilidades por meio de projetos próprios. Atualmente,
-                    estou aprofundando meus conhecimentos em Python,
-                    inteligência artificial e engenharia de prompt,
-                    enquanto concluo minha graduação em Análise e
-                    Desenvolvimento de Sistemas.
-                </p>
+                    <p class="leading-relaxed text-gray-600 mt-4">
+                        Concluí o Habit Tracker, uma aplicação web desenvolvida
+                        com Laravel e MySQL, e continuo aprimorando minhas
+                        habilidades por meio de projetos próprios. Atualmente,
+                        estou aprofundando meus conhecimentos em Python,
+                        inteligência artificial e engenharia de prompt,
+                        enquanto concluo minha graduação em Análise e
+                        Desenvolvimento de Sistemas.
+                    </p>
+                </div>
             </div>
         </section>
 
         <section class="py-20" id="habilidades">
             <div class="max-w-4xl mx-auto px-6 ">
-                <h2 class="text-3xl font-bold text-blue-600 mb-4 text-center">Habilidades</h2>
+                <h2 class="text-3xl font-bold text-blue-600 mb-4 text-center">HABILIDADES</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
-                    <div class="border rounded-lg p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Back-end</h3>
+                    <div class="bg-white border rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">BACK-END</h3>
                         <ul class="list-disc list-inside text-gray-600">
                             <li>PHP</li>
                             <li>Laravel</li>
@@ -102,24 +109,24 @@
                             <li>PHPUnit</li>
                         </ul>
                     </div>
-                    <div class="border rounded-lg p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Front-end</h3>
+                    <div class="bg-white border rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">FRONT-END</h3>
                         <ul class="list-disc list-inside text-gray-600">
                             <li>HTML</li>
                             <li>Blade</li>
                             <li>Tailwind CSS</li>
                         </ul>
                     </div>
-                    <div class="border rounded-lg p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center ">Ferramentas</h3>
+                    <div class="bg-white border rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center ">FERRAMENTAS</h3>
                         <ul class="list-disc list-inside text-gray-600">
                             <li>Git</li>
                             <li>GitHub</li>
                             <li>VS Code</li>
                         </ul>
                     </div>
-                    <div class="border rounded-lg p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Em evolução</h3>
+                    <div class="bg-white border rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">EM EVOLUÇÃO</h3>
                         <ul class="list-disc list-inside text-gray-600">
                             <li>Python</li>
                             <li>Agentes de IA</li>
@@ -134,12 +141,12 @@
 
         <section class="py-20" id="projetos">
             <div class="max-w-4xl mx-auto px-6 ">
-                <h2 class="text-3xl font-bold text-blue-600 mb-4 text-center">Projetos</h2>
+                <h2 class="text-3xl font-bold text-blue-600 mb-4 text-center">PROJETOS</h2>
 
                 <!-- Card Habit Tracker -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 flex-col h-full gap-6">
-                    <div class="border rounded-lg p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Habit Tracker</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 flex-col h-full gap-6 ">
+                    <div class="bg-white border rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">HABIT TRACKER</h3>
                         <p class="text-gray-600">Aplicação web desenvolvida com Laravel e MySQL para acompanhamento de
                             hábitos. Projeto criado para consolidar conhecimentos em desenvolvimento backend,
                             gerenciamento de dados e construção de aplicações web.</p>
@@ -165,8 +172,8 @@
                     </div>
 
                     <!-- Card Portifolio -->
-                    <div class="border rounded-lg p-6 flex flex-col h-full">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Portfólio Pessoal</h3>
+                    <div class="bg-white border rounded-lg p-6 flex flex-col h-full">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">PORTFÓLIO PESSOAL</h3>
                         <p class="text-gray-600">Este site: portfólio estático e responsivo, feito com HTML e Tailwind
                             CSS e publicado no GitHub Pages.</p>
 
@@ -188,8 +195,8 @@
                     </div>
 
                     <!-- Card Agente de IA -->
-                    <div class="border rounded-lg flex flex-col h-full p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Agente de IA</h3>
+                    <div class="bg-white border rounded-lg flex flex-col h-full p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">AGENTE DE IA</h3>
                         <p class="text-gray-600">Agente de IA em Python com engenharia de prompt. Projeto em
                             desenvolvimento.</p><br>
 
@@ -208,8 +215,8 @@
                     </div>
 
                     <!-- Card Link na bio -->
-                    <div class="border rounded-lg flex flex-col h-full p-6">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">Link na Bio</h3>
+                    <div class="bg-white border rounded-lg flex flex-col h-full p-6">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2 text-center">LINK NA BIO</h3>
                         <p class="text-gray-600">Página de links no estilo "link na bio", feita em PHP puro, com cartões
                             de links ativos, tela de administração e formulário para adicionar links.</p>
 
