@@ -1,17 +1,21 @@
+const imageBase = window.location.pathname.includes("/en/")
+    ? "../images/"
+    : "./images/";
+
 const projects = {
     "habit-tracker": {
         title: "Habit Tracker",
         images: [
             {
-                src: "./images/habit-tracker/cadastro.png",
+                src: imageBase + "habit-tracker/cadastro.png",
                 alt: "Tela de cadastro de Usuario"
             },
             {
-                src: "./images/habit-tracker/deshboard.png",
+                src: imageBase + "habit-tracker/deshboard.png",
                 alt: "tela de deshboard de hábitos"
             },
             {
-                src: "./images/habit-tracker/habitos.png",
+                src: imageBase + "habit-tracker/habitos.png",
                 alt: "Visualização dos hábitos cadastrados"
             }
         ]
@@ -21,15 +25,15 @@ const projects = {
         title: "Portifólio",
         images: [
             {
-                src: "./images/portifolio/apresentacao.png",
+                src: imageBase + "portifolio/apresentacao.png",
                 alt: "tela de apresentaçao"
             },
             {
-                src: "./images/portifolio/projetos.png",
+                src: imageBase + "portifolio/projetos.png",
                 alt: "tela de projetos"
             },
             {
-                src: "./images/portifolio/sobre.png",
+                src: imageBase + "portifolio/sobre.png",
                 alt: "tela de sobre e habilidades"
             }
         ]
